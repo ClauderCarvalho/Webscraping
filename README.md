@@ -30,3 +30,24 @@ def get_all_links(url):
   return links 
   ```
   
+  ```python
+  url = "http://www.residentevildatabase.com/personagens/"
+links = get_all_links(url)
+```
+
+```python
+df = pd.DataFrame()
+for l in links:
+  df = pd.concat([df, obtem_personagem(l) ] )
+  
+  ```
+  
+  ```python
+  df.to_excel('data_personagem.xlsx')
+  ```
+  
+  
+  
+  
+  
+  
