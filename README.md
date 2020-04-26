@@ -1,3 +1,9 @@
+                                     Webscraping Residente Evil
+
+Para os fãns do residente evil. foi feito uma webscraping no site www.residentevildatabase.com. Foi criando um DataSet com todos os personagens do jogo.
+
+
+
 ```python
 import pandas as pd
 import requests 
