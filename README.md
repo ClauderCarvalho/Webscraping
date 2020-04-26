@@ -4,8 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 ```
 
-```
-python
+```python
 
 def obtem_aparicoes(url):
   html = requests.get(url)
